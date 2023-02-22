@@ -1,0 +1,19 @@
+@font-face {
+  font-family: eventFont1;
+  src: url(./font/download-0.woff);
+}
+
+@font-face {
+  font-family: eventFont2;
+  src: url(./font/download-1.woff);
+}
+
+@font-face {
+  font-family: eventFont3;
+  src: url(./font/download-2.woff);
+}
+
+@font-face {
+  font-family: eventFont4;
+  src: url(./font/download-3.woff);
+}

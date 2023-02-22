@@ -1,0 +1,39 @@
+a {
+  text-decoration: none;
+}
+
+.categories {
+  height: 54px;
+  width: 100%;
+  border: 1px solid #eeedf2;
+  border-radius: 2px;
+  padding-left: 16px;
+  background: #f8f7fa;
+}
+
+.container-of-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 100px;
+}
+
+.card {
+  border-style: none;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.card-text {
+  color: rgb(203, 37, 37);
+  font-weight: bold;
+}
+
+.card:hover {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.card-desc {
+  font-weight: bold;
+}
+
+.footer-list-items {
+  display: flex;
+}
