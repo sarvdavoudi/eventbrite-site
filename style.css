@@ -1,5 +1,27 @@
+body {
+  font-family: eventFont2;
+}
+
 a {
   text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: rgb(234, 154, 114);
+}
+
+.container-h1 {
+  font-family: eventFont4;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin: 60px 0px;
+}
+
+.container .text-center {
+  margin: 50px 0px;
 }
 
 .categories {
@@ -14,7 +36,7 @@ a {
 .container-of-cards {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  grid-gap: 100px;
+  grid-gap: 80px;
 }
 
 .card {
@@ -34,6 +56,50 @@ a {
   font-weight: bold;
 }
 
+/* Styles required only for the example above */
+.scrollspy-example {
+  position: relative;
+  height: 500px;
+  /* width: 80%; */
+  overflow: auto;
+  margin: 30px;
+}
+
+.Features-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1.2fr);
+  grid-column-gap: 12px;
+  grid-row-gap: 12px;
+}
+
+.Features-item {
+  display: flex;
+  height: 54px;
+  width: 100%;
+  border: 1px solid #eeedf2;
+  background: #f8f7fa;
+  border-radius: 2px;
+}
+
+.features-icon {
+  background-color: rgb(250, 240, 232);
+  padding: 18px 10px;
+}
+
+.features-name {
+  padding-left: 16px;
+  padding-top: 18px;
+}
 .footer-list-items {
   display: flex;
+}
+
+
+.text-uppercase{
+  text-align: left;
+}
+
+.list-unstyled li{
+  text-align: left;
+      font-size: 10px;
 }
