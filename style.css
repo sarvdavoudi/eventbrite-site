@@ -1,7 +1,5 @@
-:root{
-
-  --redColor:#d1410c
-  
+:root {
+  --redColor: #d1410c;
 }
 
 body {
@@ -50,7 +48,7 @@ a:hover {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 .card-text {
-  color: rgb(203, 37, 37);
+  color: var(--redColor);
   font-weight: bold;
 }
 
@@ -62,14 +60,13 @@ a:hover {
   font-weight: bold;
 }
 
-/* Styles required only for the example above */
-.scrollspy-example {
-  position: relative;
-  height: 500px;
-  /* width: 80%; */
-  overflow: auto;
+/* .scrol-spy{
+ 
+  height: 300px;
+  width: 800px;
+  
   margin: 30px;
-}
+} */
 
 .Features-container {
   display: grid;
@@ -97,6 +94,32 @@ a:hover {
   padding-top: 18px;
 }
 
+/* ready style added */
+.btn-related-reference {
+  margin: 10px;
+  align-items: center;
+  appearance: none;
+  background-color: #fff;
+  border-radius: 24px;
+  border-style: none;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 3px 5px -1px, rgba(0, 0, 0, 0.14) 0 6px 10px 0, rgba(0, 0, 0, 0.12) 0 1px 18px 0;
+  box-sizing: border-box;
+  color: #3c4043;
+  cursor: pointer;
+  display: inline-flex;
+  fill: currentcolor;
+  font-family: "Google Sans", Roboto, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: 0.25px;
+  line-height: normal;
+  max-width: 100%;
+  overflow: visible;
+  padding: 2px 24px;
+}
+
 .footer-list-items ul {
   margin-left: 300px;
 }
@@ -104,7 +127,7 @@ a:hover {
 .footer-list-items ul li {
   font-size: 9px;
   margin: 10px;
-  list-style:disc;
+  list-style: disc;
 }
 .text-uppercase {
   text-align: left;
