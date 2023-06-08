@@ -70,7 +70,7 @@ a:hover {
 
 .Features-container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, 1fr);
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-column-gap: 12px;
   grid-row-gap: 12px;
 }
@@ -78,7 +78,7 @@ a:hover {
 .Features-item {
   display: flex;
   height: 54px;
-  width: 100%;
+  width: 276px;
   border: 1px solid #eeedf2;
   background: #f8f7fa;
   border-radius: 2px;
