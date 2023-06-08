@@ -70,7 +70,7 @@ a:hover {
 
 .Features-container {
   display: grid;
-  grid-template-columns: repeat(4, 1.2fr);
+  grid-template-columns: repeat(auto-fill, 1fr);
   grid-column-gap: 12px;
   grid-row-gap: 12px;
 }
@@ -121,7 +121,7 @@ a:hover {
 }
 
 .footer-list-items ul {
-  margin-left: 300px;
+  /* margin-left: 300px; */
 }
 
 .footer-list-items ul li {
